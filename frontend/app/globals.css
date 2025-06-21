@@ -1,0 +1,90 @@
+html, body, .layout-body {
+  font-family: sans-serif; /* or system-ui, Arial, etc. */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.layout-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-main {
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #222;
+  color: white;
+}
+.logo {
+  color: white;
+  font-size: 1.5rem;  /* Increase this if you want it even bigger */
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar .links a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+  background: #eee;
+  min-height: 100%;
+}
+
+.hero .btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.predict {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.predict textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.predict .btn {
+  background: #0070f3;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background: #222;
+  color: white;
+  margin-top: 2rem;
+}
